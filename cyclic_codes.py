@@ -117,20 +117,20 @@ class ReedSolomonCode:
 
 class NonBinaryBCHCode:
     """
-    Non-Binary BCH Code implementation.
+    非二进制BCH码实现。
     
-    An NB-BCH code with length n = 2^s - 1, dimension k, and minimum distance d.
+    一个NB-BCH码，长度为n = 2^s - 1，维度为k，最小距离为d。
     """
     
     def __init__(self, s: int, n: int, k: int, designed_distance: int):
         """
-        Initialize NB-BCH code.
+        初始化NB-BCH码。
         
-        Args:
-            s: Field parameter (field size = 2^s)
-            n: Codeword length (typically 2^s - 1)
-            k: Message length (dimension)
-            designed_distance: Designed minimum distance
+        参数:
+            s: 域参数（域大小 = 2^s）
+            n: 码字长度（通常为2^s - 1）
+            k: 消息长度（维度）
+            designed_distance: 设计最小距离
         """
         self.s = s
         self.n = n

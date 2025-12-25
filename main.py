@@ -200,7 +200,7 @@ def 复现论文图表(规模='小'):
     plt.tight_layout()
     
     # 保存图表
-    output_file = '/home/runner/work/text/text/仿真结果_BER_vs_SNR.png'
+    output_file = '仿真结果_BER_vs_SNR.png'
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
     print(f"\n✓ 图表已保存到: {output_file}")
     
@@ -242,7 +242,7 @@ def 生成性能对比图():
     plt.tight_layout()
     
     # 保存图表
-    output_file = '/home/runner/work/text/text/性能对比_HISS_vs_SISS.png'
+    output_file = '性能对比_HISS_vs_SISS.png'
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
     print(f"\n✓ 对比图已保存到: {output_file}")
 

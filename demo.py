@@ -76,7 +76,7 @@ def 生成性能曲线示例():
     plt.tight_layout()
     
     # 保存
-    output_file = '/home/runner/work/text/text/算法性能对比图.png'
+    output_file = '算法性能对比图.png'
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
     print(f"✓ 性能曲线已保存: {output_file}")
     
@@ -143,7 +143,7 @@ def 生成算法流程图():
     
     plt.tight_layout()
     
-    output_file = '/home/runner/work/text/text/算法流程图.png'
+    output_file = '算法流程图.png'
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
     print(f"✓ 算法流程图已保存: {output_file}")
     
@@ -237,7 +237,7 @@ def 生成论文概要图():
     
     plt.tight_layout()
     
-    output_file = '/home/runner/work/text/text/论文概要图.png'
+    output_file = '论文概要图.png'
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
     print(f"✓ 论文概要图已保存: {output_file}")
     

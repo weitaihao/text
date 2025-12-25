@@ -1,6 +1,6 @@
 """
-Shift-Sum Decoding implementation for non-binary cyclic codes.
-Implements HISS (Hard-decision Iterative Shift-Sum) and SISS (Soft-decision Iterative Shift-Sum) algorithms.
+移位求和解码实现，用于非二进制循环码。
+实现了HISS（硬判决迭代移位求和）和SISS（软判决迭代移位求和）算法。
 """
 
 import numpy as np
@@ -11,16 +11,16 @@ from cyclic_codes import ReedSolomonCode, NonBinaryBCHCode
 
 class MinimumWeightDualCodeword:
     """
-    Generator for Minimum-Weight Dual Codewords (MWDCs).
+    最小重量对偶码字(MWDC)生成器。
     """
     
     def __init__(self, code, num_mwdcs: int = 5):
         """
-        Initialize MWDC generator.
+        初始化MWDC生成器。
         
-        Args:
-            code: The cyclic code (RS or NB-BCH)
-            num_mwdcs: Number of MWDCs to generate
+        参数:
+            code: 循环码（RS或NB-BCH）
+            num_mwdcs: 要生成的MWDC数量
         """
         self.code = code
         self.gf = code.gf

@@ -1,6 +1,6 @@
 """
-Galois Field (Finite Field) implementation for non-binary cyclic codes.
-Implements GF(2^m) arithmetic operations.
+伽罗华域（有限域）实现，用于非二进制循环码。
+实现GF(2^m)的算术运算。
 """
 
 import numpy as np
